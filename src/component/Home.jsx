@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Employee from './Employee';
 
 class Home extends Component {
 
@@ -7,7 +8,12 @@ class Home extends Component {
     }
   
     render() {
-        return ( <h2 className="text-center">Home</h2>);
+      return (
+        <React.Fragment>
+          <h2 className="text-center">Home</h2>
+          <Employee />
+        </React.Fragment>
+      );
     }
 
 }

@@ -22,3 +22,16 @@
 .App-link {
   color: #61dafb;
 }
+
+table td {
+  padding: 3px;
+}
+
+.text {
+  width: 129px
+}
+
+img {
+  width: 36px;
+  height: 36px;
+}
